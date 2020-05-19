@@ -6,6 +6,20 @@ namespace Giraffe
     {
         public static void Main(string[] args)
         {
+            /**
+             * You can also initialize the strings and prompt the user's input
+             * in the following way:
+             *
+             * string adjective1, plural_noun1, verb_ing_word1, ... , silly_word2
+             * 
+             * Console.Write("Enter an adjective: ");
+             * adjective1 = Console.ReadLine();
+             * .
+             * .
+             * .
+             * Console.Write("Enter a (capital-lettered) silly word: ");
+             * silly_word2 = Console.ReadLine();
+             */
 
             Console.Write("Enter an adjective: ");
             string adjective1 = Console.ReadLine();
