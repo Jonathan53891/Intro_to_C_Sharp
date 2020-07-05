@@ -33,7 +33,7 @@ namespace Programming_Assignment_1
             Console.WriteLine(""); //for spacing
             Console.WriteLine("The larger of the two numbers is " + Math.Max(num1, num2));
 
-            if (num1 == num2) //checks to see if person 1) is male AND 2) is tall
+            if (num1 == num2)
             {
                 Console.WriteLine("Both numbers are the same.");
             }
