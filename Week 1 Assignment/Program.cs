@@ -1,6 +1,6 @@
 using System;
 
-namespace Giraffe
+namespace Programming_Assignment_1
 {
     class MainClass
     {
