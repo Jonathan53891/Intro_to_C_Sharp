@@ -1,6 +1,6 @@
 using System;
 
-namespace Giraffe
+namespace Programming_Assignment_1
 {
     class MainClass
     {
@@ -32,6 +32,16 @@ namespace Giraffe
             Console.WriteLine("The remainder of the two numbers is " + (num1 % num2));
             Console.WriteLine(""); //for spacing
             Console.WriteLine("The larger of the two numbers is " + Math.Max(num1, num2));
+
+            if (num1 == num2) //checks to see if person 1) is male AND 2) is tall
+            {
+                Console.WriteLine("Both numbers are the same.");
+            }
+            else
+            {
+                Console.WriteLine("Given numbers are NOT the same.");
+            }
+
             Console.WriteLine("Press the [enter] key to continue");
 
             Console.ReadLine();
