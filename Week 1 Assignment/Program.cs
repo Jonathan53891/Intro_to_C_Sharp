@@ -31,6 +31,7 @@ namespace Programming_Assignment_1
             Console.WriteLine("The remainder of the two numbers is " + (num1 % num2));
             Console.WriteLine(""); //for spacing
             Console.WriteLine("The larger of the two numbers is " + Math.Max(num1, num2));
+            Console.WriteLine("Press the [enter] key to continue");
             
             Console.ReadLine();
         }
