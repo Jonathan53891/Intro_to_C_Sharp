@@ -1,6 +1,6 @@
 using System;
 
-namespace Programming_Assignment_1
+namespace Giraffe
 {
     class MainClass
     {
@@ -16,7 +16,8 @@ namespace Programming_Assignment_1
              */
 
             int num1 = Convert.ToInt32(Console.ReadLine());
-            /* The program will run now, since the string gets converted
+            /* 
+             * The program will run now, since the string gets converted
              * to an integer
              */
 
@@ -32,7 +33,7 @@ namespace Programming_Assignment_1
             Console.WriteLine(""); //for spacing
             Console.WriteLine("The larger of the two numbers is " + Math.Max(num1, num2));
             Console.WriteLine("Press the [enter] key to continue");
-            
+
             Console.ReadLine();
         }
     }
